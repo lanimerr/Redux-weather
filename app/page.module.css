@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.app {
+  margin-top: 20px;
+}
+
+.col-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ced4da;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
